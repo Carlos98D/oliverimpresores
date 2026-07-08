@@ -215,6 +215,44 @@ body {
     background-color: #004a99; /* Tono más claro al pasar el cursor */
 }
 
+
+
+/* --- ESTRUCTURA AVANZADA --- */
+.seccion-servicio-especial { padding: 80px 0; background: #fff; }
+
+.titulo-maestro { font-size: 48px; text-align: center; margin-bottom: 20px; color: #002D62; }
+.intro-maestra { text-align: center; font-size: 18px; margin-bottom: 60px; color: #64748b; }
+
+.grid-layout-avanzado {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide en dos columnas iguales */
+    gap: 50px;
+    align-items: center;
+}
+
+.card-imagen-principal img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.card-imagen-principal h3 { margin-top: 20px; font-size: 28px; color: #002D62; }
+
+/* Estilo para los 3 items de información */
+.info-item { margin-bottom: 30px; padding-left: 20px; border-left: 3px solid #d71920; }
+.info-item h3 { font-size: 22px; color: #334155; margin-bottom: 8px; }
+.info-item p { color: #64748b; font-size: 16px; }
+
+/* Responsivo: Si la pantalla es pequeña, se pone uno debajo del otro */
+@media (max-width: 768px) {
+    .grid-layout-avanzado { grid-template-columns: 1fr; }
+}
+
+
+
+
+
+
 /* ==========================================================================
    --- NUEVO HERO ULTRA DINÁMICO Y PREMIUM ---
    ========================================================================== */
