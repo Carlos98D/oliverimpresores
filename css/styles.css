@@ -80,13 +80,13 @@ body {
     margin-bottom: 20px; /* Separación entre párrafos */
 }
 
-.info-link {
+.info-texto a {
     color: #002D62; /* Tu color base */
     text-decoration: underline;
     transition: 0.3s;
 }
 
-.info-link:hover {
+.info-texto a:hover {
     color: #004a99; /* Un tono un poco más claro como pediste */
 }
 
