@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oliver Impresores | Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div id="global-header"></div>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Póngase en Contacto</h1>
+            <p>Atención personalizada. Vamos directamente a su empresa en Guadalajara y zona metropolitana.</p>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTENIDO DE CONTACTO -->
+    <section class="contact-section">
+        <div class="container contact-container">
+            
+            <!-- Datos directos -->
+            <div class="contact-info-box">
+                <h2>Datos de Contacto</h2>
+                <p>Si necesita una cotización o asesoría técnica, llámenos o envíenos un correo. Agendamos una visita a sus instalaciones.</p>
+                <div class="info-item">
+                    <strong>📍 Ubicación:</strong> Guadalajara, Jalisco, México.
+                </div>
+                <div class="info-item">
+                    <strong>📞 Teléfono:</strong> <a href="tel:3336328230">(33) 3632-8230</a>
+                </div>
+                <div class="info-item">
+                    <strong>⏰ Horario:</strong> Lunes a Viernes (Horario de Oficina empresarial).
+                </div>
+            </div>
+
+            <!-- Formulario básico -->
+            <div class="contact-form-box">
+                <h2>Envíenos un mensaje</h2>
+                <form action="#" method="POST" class="contact-form">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez">
+
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" id="empresa" name="empresa" placeholder="Nombre de su negocio">
+
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" required placeholder="correo@empresa.com">
+
+                    <label for="mensaje">¿Qué producto o cotización necesita?:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Detalle aquí las medidas, cantidades o tipo de impresión..."></textarea>
+
+                    <button type="submit" class="btn-primary">Enviar Solicitud</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="global-footer"></div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
