@@ -175,6 +175,27 @@ body {
 }
 
 
+/* Estilos botón */
+.seccion-boton {
+    padding: 20px 0 60px 0; /* Espaciado para despegarlo de las tarjetas */
+}
+
+/* Nota: Asegúrate de tener esto en tu CSS original */
+.btn-dyn-primary {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #002D62; /* Tu color principal */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.btn-dyn-primary:hover {
+    background-color: #004a99; /* Tono más claro al pasar el cursor */
+}
+
 /* ==========================================================================
    --- NUEVO HERO ULTRA DINÁMICO Y PREMIUM ---
    ========================================================================== */
