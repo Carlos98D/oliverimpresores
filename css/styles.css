@@ -251,6 +251,42 @@ body {
 
 
 
+/* Estilos para sección titular */
+.seccion-titular { 
+    padding: 80px 0; 
+    background-color: #f8fafc; /* Fondo gris muy suave para contraste */
+}
+
+.box-titular {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 20px;
+    border-left: 8px solid #002D62; /* Línea de acento color corporativo */
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1); /* Sombra elegante */
+}
+
+.box-titular h2 {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 800;
+    color: #0f172a;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.box-titular p {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 400;
+    color: #475569;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+
+
 
 
 /* ==========================================================================
