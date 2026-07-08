@@ -262,6 +262,16 @@ body {
 .contact-form input, .contact-form textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; }
 .contact-form button { align-self: flex-start; }
 
+.map-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    display: block;
+    width: 100%;
+}
+
 /* Estilo base para el botón */
 .btn-primary {
     background: #0056b3; /* Tu color principal */
