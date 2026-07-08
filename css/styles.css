@@ -262,6 +262,36 @@ body {
 .contact-form input, .contact-form textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; }
 .contact-form button { align-self: flex-start; }
 
+/* Estilo base para el botón */
+.btn-primary {
+    background: #0056b3; /* Tu color principal */
+    color: #ffffff;
+    padding: 16px 35px;
+    border: none;
+    border-radius: 8px; /* Bordes redondeados más elegantes */
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave para todos los efectos */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidad */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Efecto al pasar el cursor (Hover) */
+.btn-primary:hover {
+    background: #004494; /* Un tono un poco más oscuro */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* La sombra se agranda */
+    transform: translateY(-2px); /* El botón "sube" un poco */
+}
+
+/* Efecto al hacer clic (Active) */
+.btn-primary:active {
+    transform: translateY(0); /* Vuelve a su posición original */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
 /* --- Estilos del Footer --- */
 .site-footer { background-color: #111; color: #fff; padding: 60px 20px 20px 20px; margin-top: 60px; }
 .footer-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; padding-bottom: 40px; border-bottom: 1px solid #222; }
