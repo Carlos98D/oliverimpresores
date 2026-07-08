@@ -92,6 +92,7 @@ body {
 
 
 /* Estilos sección destacada */
+/* Estilos sección destacada */
 .seccion-destacada { padding: 60px 0; }
 
 .box-destacada {
@@ -133,7 +134,6 @@ body {
     color: #d71920; /* Cambia a tu color de contraste al pasar el mouse */
     border-bottom: 2px solid #d71920;
 }
-
 
 /* Estilos tarjetas 2x2 */
 .tarjetas-container { padding: 80px 0; background: #ffffff; }
