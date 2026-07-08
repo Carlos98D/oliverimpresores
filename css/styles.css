@@ -64,6 +64,70 @@ body {
 }
 
 
+/* Estilos texto */
+.info-texto {
+    padding: 60px 0;
+}
+
+/* Estilos texto primero*/
+.info-texto p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(71, 85, 105);
+    font-size: 19px;
+    line-height: 32px;
+    margin-bottom: 20px; /* Separación entre párrafos */
+}
+
+.info-link {
+    color: #002D62; /* Tu color base */
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.info-link:hover {
+    color: #004a99; /* Un tono un poco más claro como pediste */
+}
+
+
+/* Estilos sección destacada */
+.seccion-destacada {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.seccion-destacada h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: rgb(15, 23, 42);
+    font-size: 42px; /* Reducido de 56px a 42px para mayor equilibrio */
+    line-height: 52px;
+    margin-bottom: 30px;
+    letter-spacing: -0.5px; /* Mejora la legibilidad en tamaños grandes */
+}
+
+.seccion-destacada p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: rgb(71, 85, 105);
+    font-size: 19px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+/* Reutilizamos tu estilo de enlace */
+.seccion-destacada .info-link {
+    color: #002D62;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.seccion-destacada .info-link:hover {
+    color: #004a99;
+}
+
+
 /* ==========================================================================
    --- NUEVO HERO ULTRA DINÁMICO Y PREMIUM ---
    ========================================================================== */
