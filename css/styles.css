@@ -81,7 +81,7 @@ body {
 }
 
 .info-texto p a {
-    color: #002D62; /* Tu color base azul oscuro */
+    color: #0056B3; /* Tu color base azul oscuro */
     font-weight: bold; /* Destaca de inmediato */
     text-decoration: none; /* Sin raya */
     transition: color 0.3s ease; /* Cambio suave */
@@ -125,7 +125,7 @@ body {
 
 /* Estilo del enlace elegante */
 .box-destacada p a {
-    color: #002D62; /* Tu color base azul oscuro */
+    color: #0056B3; /* Tu color base azul oscuro */
     font-weight: bold; /* Destaca de inmediato */
     text-decoration: none; /* Sin raya */
     transition: color 0.3s ease; /* Cambio suave */
