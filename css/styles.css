@@ -81,14 +81,15 @@ body {
 }
 
 .info-texto p a {
-    color: #002D62; /* Tu color base */
-    text-decoration: none; /* Esto elimina la raya */
-    transition: 0.3s;
+    color: #002D62; /* Tu color base azul oscuro */
+    font-weight: bold; /* Destaca de inmediato */
+    text-decoration: none; /* Sin raya */
+    transition: color 0.3s ease; /* Cambio suave */
 }
 
 .info-texto p a:hover {
-    color: #004a99; /* Tono más claro al pasar el mouse */
-    text-decoration: none; /* Asegura que siga sin subrayado al pasar el mouse */
+    color: #D71920; /* Color rojo al pasar el ratón */
+    text-decoration: none; /* Sin raya */
 }
 
 
@@ -124,14 +125,15 @@ body {
 
 /* Estilo del enlace elegante */
 .box-destacada p a {
-    color: #002D62; /* Tu color base */
-    text-decoration: none; /* Esto elimina la raya */
-    transition: 0.3s;
+    color: #002D62; /* Tu color base azul oscuro */
+    font-weight: bold; /* Destaca de inmediato */
+    text-decoration: none; /* Sin raya */
+    transition: color 0.3s ease; /* Cambio suave */
 }
 
 .box-destacada p a:hover {
-    color: #004a99; /* Tono más claro al pasar el mouse */
-    text-decoration: none; /* Asegura que siga sin subrayado al pasar el mouse */
+    color: #D71920; /* Color rojo al pasar el ratón */
+    text-decoration: none; /* Sin raya */
 }
 
 
