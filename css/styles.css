@@ -82,12 +82,13 @@ body {
 
 .info-texto p a {
     color: #002D62; /* Tu color base */
-    text-decoration: underline;
+    text-decoration: none; /* Esto elimina la raya */
     transition: 0.3s;
 }
 
 .info-texto p a:hover {
-    color: #004a99; /* Un tono un poco más claro como pediste */
+    color: #004a99; /* Tono más claro al pasar el mouse */
+    text-decoration: none; /* Asegura que siga sin subrayado al pasar el mouse */
 }
 
 
@@ -122,18 +123,19 @@ body {
 }
 
 /* Estilo del enlace elegante */
-.link-elegante {
-    color: #002D62;
-    text-decoration: none; /* Quitamos la raya */
-    font-weight: 600;
-    border-bottom: 2px solid #002D62; /* Usamos un borde inferior en vez de subrayado */
-    transition: all 0.3s ease;
+.box-destacada p a {
+    color: #002D62; /* Tu color base */
+    text-decoration: none; /* Esto elimina la raya */
+    transition: 0.3s;
 }
 
-.link-elegante:hover {
-    color: #d71920; /* Cambia a tu color de contraste al pasar el mouse */
-    border-bottom: 2px solid #d71920;
+.box-destacada p a:hover {
+    color: #004a99; /* Tono más claro al pasar el mouse */
+    text-decoration: none; /* Asegura que siga sin subrayado al pasar el mouse */
 }
+
+
+
 
 /* --- ESTILOS DE TARJETAS PROFESIONALES --- */
 
