@@ -51,7 +51,49 @@ body {
 .nav-menu { display: flex; gap: 30px; }
 .nav-link { text-decoration: none; color: #555; font-weight: 600; transition: color 0.3s; }
 .nav-link:hover { color: #0056b3; }
-.btn-phone { text-decoration: none; background-color: #e6f0fa; color: #0056b3; padding: 10px 15px; border-radius: 5px; font-weight: bold; }
+.btn-phone{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 8px 18px;
+
+    background: #dfe7f2;
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    transition: all .3s ease;
+}
+
+.btn-phone:hover{
+    background: #d3ddeb;
+}
+
+.btn-phone i{
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ffffff;
+    border-radius: 50%;
+
+    color: #25D366;
+    font-size: 20px;
+
+    box-shadow: 0 1px 3px rgba(0,0,0,.15);
+}
+
+.btn-phone span{
+    color: #222;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: .3px;
+}
+
 
 
 
