@@ -10,6 +10,8 @@
 </head>
 <body>
 
+    <script src="js/main.js" defer></script>
+
     <!-- El Header se cargará aquí automáticamente -->
     <div id="global-header"></div>
 
@@ -371,20 +373,6 @@
         </div>
     </div>
 </section>
-
-    <script>
-    const triggers = document.querySelectorAll('.faq-trigger');
-    triggers.forEach(trigger => {
-        trigger.addEventListener('click', () => {
-            const item = trigger.parentElement;
-            // Cierra otros para que solo uno esté abierto
-            document.querySelectorAll('.faq-item').forEach(i => {
-                if(i !== item) i.classList.remove('active');
-            });
-            item.classList.toggle('active');
-        });
-    });
-</script>
 
 
 
