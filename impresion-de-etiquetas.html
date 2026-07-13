@@ -345,28 +345,46 @@
 <section class="seccion-faq">
     <div class="container">
         <h2 class="titulo-faq">Preguntas Frecuentes</h2>
-        <p class="intro-faq">Resolvemos tus dudas sobre nuestros servicios de impresión y personalización de etiquetas.</p>
-        
-        <div class="faq-grid">
+        <div class="faq-container" id="faqContainer">
+            
             <div class="faq-item">
-                <h3>¿Qué tipo de información puede incluir una etiqueta?</h3>
-                <p>Las etiquetas pueden mostrar datos como nombre del producto, ingredientes, instrucciones de uso, códigos de barras, información técnica y elementos de marca.</p>
+                <button class="faq-trigger">¿Qué tipo de información puede incluir una etiqueta? <span>+</span></button>
+                <div class="faq-content"><p>Las etiquetas pueden mostrar datos como nombre del producto, ingredientes, instrucciones de uso, códigos de barras, información técnica y elementos de marca.</p></div>
             </div>
+
             <div class="faq-item">
-                <h3>¿Se pueden imprimir etiquetas en diferentes tamaños y formas?</h3>
-                <p>Sí. Las etiquetas pueden personalizarse en dimensiones y formatos distintos para adaptarse a cada producto y necesidad de presentación.</p>
+                <button class="faq-trigger">¿Se pueden imprimir etiquetas en diferentes tamaños y formas? <span>+</span></button>
+                <div class="faq-content"><p>Sí. Las etiquetas pueden personalizarse en dimensiones y formatos distintos para adaptarse a cada producto y necesidad de presentación.</p></div>
             </div>
+
             <div class="faq-item">
-                <h3>¿Qué materiales se utilizan para la impresión de etiquetas?</h3>
-                <p>Existen materiales de papel y películas adhesivas con diferentes niveles de resistencia, según las condiciones de uso y el tipo de producto.</p>
+                <button class="faq-trigger">¿Qué materiales se utilizan para la impresión de etiquetas? <span>+</span></button>
+                <div class="faq-content"><p>Existen materiales de papel y películas adhesivas con diferentes niveles de resistencia, según las condiciones de uso y el tipo de producto.</p></div>
             </div>
+
+
             <div class="faq-item">
-                <h3>¿Es posible solicitar impresión de etiquetas para grandes volúmenes?</h3>
-                <p>Sí. La producción puede ajustarse tanto a pedidos pequeños como a grandes cantidades, manteniendo uniformidad en la impresión y los acabados.</p>
+                <button class="faq-trigger">¿Es posible solicitar impresión de etiquetas para grandes volúmenes? <span>+</span></button>
+                <div class="faq-content"><p>Sí. La producción puede ajustarse tanto a pedidos pequeños como a grandes cantidades, manteniendo uniformidad en la impresión y los acabados.</p></div>
             </div>
+
         </div>
     </div>
 </section>
+
+    <script>
+    const triggers = document.querySelectorAll('.faq-trigger');
+    triggers.forEach(trigger => {
+        trigger.addEventListener('click', () => {
+            const item = trigger.parentElement;
+            // Cierra otros para que solo uno esté abierto
+            document.querySelectorAll('.faq-item').forEach(i => {
+                if(i !== item) i.classList.remove('active');
+            });
+            item.classList.toggle('active');
+        });
+    });
+</script>
 
 
 
