@@ -404,6 +404,38 @@ body {
     border: 1px solid #002D62;
 }
 
+
+
+
+.seccion-iconos .parrafo-titulo-tarjeta p a {
+    color: #0056B3; /* Tu color base azul oscuro */
+    font-weight: bold; /* Destaca de inmediato */
+    text-decoration: none; /* Sin raya */
+    transition: color 0.3s ease; /* Cambio suave */
+}
+
+.seccion-iconos .parrafo-titulo-tarjeta p a:hover {
+    color: #D71920; /* Color rojo al pasar el ratón */
+    text-decoration: none; /* Sin raya */
+}
+
+.seccion-iconos .parrafo-titulo-tarjeta p {
+    font-size: 19px;
+    color: #475569;
+    line-height: 1.7;
+}
+
+
+
+.seccion-iconos .titulo-iconos h2 {
+    font-size: 42px;
+    color: #002D62;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+
+
 .destacada { background: #002D62; }
 .destacada i, .destacada h3 { color: #ffffff; }
 
