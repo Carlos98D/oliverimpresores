@@ -200,15 +200,23 @@ body {
     line-height: 30px !important;
 }
 
+.tarjetas-container .parrafo-titulo-tarjeta {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+    font-weight: 400 !important;
+    color: rgb(71, 85, 105) !important;
+    font-size: 19px !important;
+    line-height: 30px !important;
+}
 
-.parrafo-titulo-tarjeta p a {
+
+.tarjetas-container .parrafo-titulo-tarjeta p a {
     color: #0056B3; /* Tu color base azul oscuro */
     font-weight: bold; /* Destaca de inmediato */
     text-decoration: none; /* Sin raya */
     transition: color 0.3s ease; /* Cambio suave */
 }
 
-.parrafo-titulo-tarjeta p a:hover {
+.tarjetas-container .parrafo-titulo-tarjeta p a:hover {
     color: #D71920; /* Color rojo al pasar el ratón */
     text-decoration: none; /* Sin raya */
 }
