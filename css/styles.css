@@ -747,3 +747,17 @@ body {
     line-height: 32px !important;
     margin-bottom: 25px !important;
 }
+
+
+
+.card p a {
+    color: #0056B3; /* Tu color base azul oscuro */
+    font-weight: bold; /* Destaca de inmediato */
+    text-decoration: none; /* Sin raya */
+    transition: color 0.3s ease; /* Cambio suave */
+}
+
+.card p a:hover {
+    color: #D71920; /* Color rojo al pasar el ratón */
+    text-decoration: none; /* Sin raya */
+}
