@@ -97,6 +97,283 @@ body {
 
 
 
+/*==================================================
+HERO
+==================================================*/
+
+.hero {
+    padding: 100px 0;
+    background: radial-gradient(circle at top right, #dce8f7 0%, #ffffff 45%);
+}
+
+.hero .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+
+/*==================================================
+COLUMNA IZQUIERDA
+==================================================*/
+
+.hero-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*==================================================
+BRANDING
+==================================================*/
+
+.hero-brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 45px;
+}
+
+.hero-logo {
+    width: 95px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.hero-brand-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-nombre {
+    font-size: 52px;
+    line-height: 1;
+    font-weight: 300;
+    color: #0056B3;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.hero-brand-texto span {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #D71920;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/*==================================================
+H1
+==================================================*/
+
+.hero-texto h1 {
+    font-size: 46px;
+    line-height: 1.18;
+    color: #002D62;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+
+/*==================================================
+PÁRRAFOS
+==================================================*/
+
+.hero-texto p {
+    font-size: 19px;
+    color: #475569;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+
+/*==================================================
+BOTONES
+==================================================*/
+
+.hero-botones {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-top: 18px;
+}
+
+.btn-azul {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 34px;
+    background: #0056B3;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.btn-azul:hover {
+    background: #00458E;
+}
+
+.btn-blanco {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 34px;
+    background: #ffffff;
+    color: #23446E;
+    text-decoration: none;
+    border: 1px solid #d8dfe8;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-blanco:hover {
+    background: #f4f6f8;
+}
+
+
+/*==================================================
+IMAGEN
+==================================================*/
+
+.hero-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-imagen img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+}
+
+
+/*==================================================
+TABLET
+==================================================*/
+
+@media (max-width: 991px) {
+
+    .hero {
+        padding: 80px 0;
+    }
+
+    .hero .container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .hero-imagen {
+        order: -1;
+    }
+
+    .hero-texto {
+        text-align: center;
+    }
+
+    .hero-brand {
+        justify-content: center;
+    }
+
+    .hero-brand-texto {
+        align-items: flex-start;
+    }
+
+    .hero-logo {
+        width: 85px;
+    }
+
+    .hero-nombre {
+        font-size: 42px;
+    }
+
+    .hero-brand-texto span {
+        font-size: 16px;
+    }
+
+    .hero-texto h1 {
+        font-size: 38px;
+    }
+
+    .hero-texto p {
+        font-size: 18px;
+    }
+
+    .hero-botones {
+        justify-content: center;
+    }
+
+}
+
+
+/*==================================================
+MÓVIL
+==================================================*/
+
+@media (max-width: 576px) {
+
+    .hero {
+        padding: 60px 0;
+    }
+
+    .hero-brand {
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    .hero-logo {
+        width: 65px;
+    }
+
+    .hero-nombre {
+        font-size: 28px;
+        line-height: 1.1;
+    }
+
+    .hero-brand-texto span {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    .hero-texto h1 {
+        font-size: 30px;
+        line-height: 1.25;
+    }
+
+    .hero-texto p {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    .hero-botones {
+        flex-direction: column;
+    }
+
+    .btn-azul,
+    .btn-blanco {
+        width: 100%;
+    }
+
+    .hero-imagen img {
+        max-width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
 
 
 
