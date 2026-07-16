@@ -16,3 +16,23 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+// imagenes zoom estaticas tres
+
+
+const modal = document.getElementById("modal");
+const fullImage = document.getElementById("full-image");
+const closeBtn = document.querySelector(".close");
+
+// Abrir zoom al hacer clic
+document.querySelectorAll(".zoomable").forEach(img => {
+  img.onclick = function() {
+    modal.style.display = "flex";
+    fullImage.src = this.src;
+  }
+});
+
+// Cerrar al hacer clic en la X o fuera de la imagen
+closeBtn.onclick = () => modal.style.display = "none";
+modal.onclick = (e) => { if(e.target === modal) modal.style.display = "none"; }
+
