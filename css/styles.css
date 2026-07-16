@@ -511,106 +511,94 @@ MÓVIL
 
 
 /* --- Estilos Generales de la Sección --- */
-.whatsapp-contact-section {
-    padding: 60px 20px;
-    background-color: #f5f5f5; /* Un fondo suave para que resalte la tarjeta blanca */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tu tipografía solicitada */
+.contacto-whatsapp{
+    padding:40px 20px;
+    background:#fff;
 }
 
-/* --- Contenedor Principal de la Tarjeta --- */
-.whatsapp-card {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #ffffff;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 30px;
-    border-radius: 20px; /* Bordes redondeados suaves */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* Sombra sutil */
-    border-left: 5px solid #25D366; /* Detalle verde a la izquierda */
+.contacto-contenedor{
+    max-width:1200px;
+    margin:auto;
+
+    display:flex;
+    align-items:center;
+    gap:35px;
 }
 
-/* --- Icono WhatsApp (Izquierda) --- */
-.card-icon {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+.contacto-qr img{
+    width:120px;
+    display:block;
 }
 
-.card-icon i {
-    font-size: 60px;
-    color: #25D366; /* Color oficial de WhatsApp */
+.contacto-info{
+    flex:1;
 }
 
-/* --- Información de Texto (Centro) --- */
-.card-info {
-    flex: 3; /* Ocupa más espacio que el icono */
-    padding: 0 20px;
+.contacto-info h2{
+    margin:0 0 10px;
+    font-size:46px;
+    font-weight:300;
+    color:#111;
+    line-height:1.2;
 }
 
-.card-info h3 {
-    margin: 0 0 5px 0;
-    font-size: 24px;
-    color: #333;
-    font-weight: 700;
+.telefono{
+    display:inline-flex;
+    align-items:center;
+    gap:12px;
+
+    text-decoration:none;
+
+    font-size:34px;
+    font-weight:700;
+
+    color:#0A4E9B;
 }
 
-.card-info p {
-    margin: 0 0 10px 0;
-    font-size: 16px;
-    color: #666;
+.telefono i{
+    color:#222;
+    font-size:30px;
 }
 
-.whatsapp-number {
-    font-size: 18px;
-    font-weight: 600;
-    color: #128C7E; /* Un verde un poco más oscuro para el número */
-    background-color: #e9fdf0;
-    padding: 5px 10px;
-    border-radius: 5px;
+.contacto-direccion{
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    max-width:350px;
+
+    font-size:24px;
+    color:#222;
+    line-height:1.4;
 }
 
-/* --- Código QR (Derecha) --- */
-.card-qr {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border-left: 1px solid #eee; /* Línea divisoria suave */
-    padding-left: 20px;
+.contacto-direccion i{
+    color:#d8302f;
+    font-size:34px;
 }
 
-.card-qr img {
-    width: 120px; /* Tamaño controlado del QR */
-    height: 120px;
+/* Responsive */
+
+@media(max-width:900px){
+
+.contacto-contenedor{
+    flex-direction:column;
+    text-align:center;
 }
 
-.qr-instruction {
-    margin-top: 8px;
-    font-size: 12px;
-    color: #888;
+.contacto-direccion{
+    justify-content:center;
+    max-width:100%;
 }
 
-/* --- Responsivo (Adaptación a móviles) --- */
-@media (max-width: 768px) {
-    .whatsapp-card {
-        flex-direction: column; /* Apila los elementos verticalmente */
-        text-align: center;
-        gap: 20px;
-    }
+.contacto-info h2{
+    font-size:32px;
+}
 
-    .card-info {
-        padding: 10px 0;
-    }
+.telefono{
+    font-size:28px;
+}
 
-    .card-qr {
-        border-left: none;
-        border-top: 1px solid #eee;
-        padding-top: 20px;
-        padding-left: 0;
-    }
 }
 
 
