@@ -845,11 +845,210 @@ MÓVIL
 /* ===== CONFIGURACIÓN ABAJO DE LA SECCIONN QR final ===== */
 
 
+/* IMAGEN DE UN LADO TEXTO DEL OTRO LADO INICIO */
+
+
+/* --- ESTRUCTURA AVANZADA --- */
+.seccion-servicio-especial { padding: 80px 0; background: #fff; }
+
+.titulo-maestro { 
+    
+    font-size: 42px;
+    color: #002D62;
+    margin-bottom: 20px;
+    font-weight: 800; 
+}
+
+.intro-maestra { text-align: center; font-size: 18px; margin-bottom: 60px; color: #64748b; }
+
+.grid-layout-avanzado {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide en dos columnas iguales */
+    gap: 50px;
+    align-items: center;
+}
+
+.card-imagen-principal img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.card-imagen-principal h3 { margin-top: 20px; font-size: 28px; color: #002D62; }
+
+/* Estilo para los 3 items de información */
+.info-item { margin-bottom: 30px; padding-left: 20px; border-left: 3px solid #d71920; }
+.info-item h3 { font-size: 22px; color: #334155; margin-bottom: 8px; }
+.info-item p { color: #64748b; font-size: 16px; }
+
+/* Responsivo: Si la pantalla es pequeña, se pone uno debajo del otro */
+@media (max-width: 768px) {
+    .grid-layout-avanzado { grid-template-columns: 1fr; }
+}
 
 
 
 
+/* Estilos para sección titular */
+.seccion-titular { 
+    padding: 80px 0; 
+    background-color: #f8fafc; /* Fondo gris muy suave para contraste */
+}
 
+.box-titular {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 20px;
+    border-left: 8px solid #002D62; /* Línea de acento color corporativo */
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1); /* Sombra elegante */
+}
+
+.seccion-titular h2 {
+    font-size: 42px;
+    color: #002D62;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.box-titular p {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 400;
+    color: #475569;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+
+
+/* --- ESTILO SECCIÓN MITAD --- */
+.seccion-mitad { 
+    padding: 80px 0; 
+    background-color: #ffffff; 
+}
+
+.layout-mitad {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide en dos partes iguales */
+    gap: 60px; /* Espacio entre el texto y la imagen */
+    align-items: center; /* Alinea el texto verticalmente con la imagen */
+}
+
+.texto-mitad h2 {
+    font-size: 42px;
+    color: #002D62;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.texto-mitad p {
+    font-size: 19px;
+    color: #475569;
+    line-height: 1.7;
+}
+
+.imagen-mitad img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15); /* Sombra para profundidad */
+    transition: transform 0.3s ease;
+}
+
+.imagen-mitad img:hover {
+    transform: scale(1.02); /* Efecto sutil al pasar el mouse */
+}
+
+/* Responsivo para móviles */
+@media (max-width: 768px) {
+    .layout-mitad { grid-template-columns: 1fr; text-align: center; }
+    .texto-mitad h2 { font-size: 32px; }
+}
+
+
+
+.grid-3x3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.card-icono {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.card-icono i {
+    font-size: 40px; /* Tamaño del ícono */
+    color: #002D62;  /* Tu color azul */
+    margin-bottom: 15px;
+    display: block;
+}
+
+.card-icono h3 {
+    font-size: 18px;
+    color: #334155;
+}
+
+/* Efecto al pasar el cursor */
+.card-icono:hover {
+    transform: translateY(-8px);
+    border: 1px solid #002D62;
+}
+
+
+
+
+.seccion-iconos .parrafo-titulo-tarjeta p a {
+    color: #0056B3; /* Tu color base azul oscuro */
+    font-weight: bold; /* Destaca de inmediato */
+    text-decoration: none; /* Sin raya */
+    transition: color 0.3s ease; /* Cambio suave */
+}
+
+.seccion-iconos .parrafo-titulo-tarjeta p a:hover {
+    color: #D71920; /* Color rojo al pasar el ratón */
+    text-decoration: none; /* Sin raya */
+}
+
+.seccion-iconos .parrafo-titulo-tarjeta p {
+    font-size: 19px;
+    color: #475569;
+    line-height: 1.7;
+}
+
+
+
+.titulo-iconos h2 {
+    font-size: 42px !important;
+    color: #002D62 !important;
+    margin-bottom: 20px !important;
+    font-weight: 800 !important;
+}
+
+
+
+.destacada { background: #002D62; }
+.destacada i, .destacada h3 { color: #ffffff; }
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .grid-3x3 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+    .grid-3x3 { grid-template-columns: 1fr; }
+}
+
+
+
+
+/* IMAGEN DE UN LADO TEXTO DEL OTRO LADO FIN */
 
 
 
