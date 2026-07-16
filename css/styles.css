@@ -371,6 +371,80 @@ MÓVIL
 
 
 
+/* ===== CONFIGURACIÓN ===== */
+:root {
+  --marquee-speed: 45s;
+  --main-color: #16476a;
+  --bg-color: #f2f2f2;
+}
+
+/* ===== CONTENEDOR ===== */
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background: var(--bg-color);
+  padding: 10px 0;
+}
+
+/* ===== TRACK ===== */
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll var(--marquee-speed) linear infinite;
+
+  will-change: transform;
+  transform: translate3d(0,0,0);
+  backface-visibility: hidden;
+}
+
+/* ===== TEXTO BASE ===== */
+.marquee-text {
+  font-family: 'Rethink Sans', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  white-space: nowrap;
+  margin-right: 80px;
+  letter-spacing: 4px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+/* ===== TEXTO RELLENO ===== */
+.marquee-text span {
+  color: var(--main-color);
+}
+
+/* ===== TEXTO SOLO BORDE (OPTIMIZADO PARA RETHINK SANS) ===== */
+.marquee-text .outline {
+  color: var(--bg-color); /* mismo color que el fondo */
+  -webkit-text-stroke: 1.8px var(--main-color);
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== ANIMACIÓN ===== */
+@keyframes marquee-scroll {
+  from {
+    transform: translate3d(0,0,0);
+  }
+  to {
+    transform: translate3d(-50%,0,0);
+  }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .marquee-text {
+    font-size: 28px;
+    margin-right: 40px;
+    gap: 20px;
+    letter-spacing: 2px;
+  }
+}
+
+/* ===== CONFIGURACIÓN ===== */
+
 
 
 
