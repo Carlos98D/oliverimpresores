@@ -507,6 +507,122 @@ MÓVIL
 
 
 
+/* ===== CONFIGURACIÓN ABAJO DE LA IMAGEN Y DEL LISTON INICIO ===== */
+
+
+/* --- Estilos Generales de la Sección --- */
+.whatsapp-contact-section {
+    padding: 60px 20px;
+    background-color: #f5f5f5; /* Un fondo suave para que resalte la tarjeta blanca */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tu tipografía solicitada */
+}
+
+/* --- Contenedor Principal de la Tarjeta --- */
+.whatsapp-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px; /* Bordes redondeados suaves */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* Sombra sutil */
+    border-left: 5px solid #25D366; /* Detalle verde a la izquierda */
+}
+
+/* --- Icono WhatsApp (Izquierda) --- */
+.card-icon {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.card-icon i {
+    font-size: 60px;
+    color: #25D366; /* Color oficial de WhatsApp */
+}
+
+/* --- Información de Texto (Centro) --- */
+.card-info {
+    flex: 3; /* Ocupa más espacio que el icono */
+    padding: 0 20px;
+}
+
+.card-info h3 {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+}
+
+.card-info p {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.whatsapp-number {
+    font-size: 18px;
+    font-weight: 600;
+    color: #128C7E; /* Un verde un poco más oscuro para el número */
+    background-color: #e9fdf0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* --- Código QR (Derecha) --- */
+.card-qr {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-left: 1px solid #eee; /* Línea divisoria suave */
+    padding-left: 20px;
+}
+
+.card-qr img {
+    width: 120px; /* Tamaño controlado del QR */
+    height: 120px;
+}
+
+.qr-instruction {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #888;
+}
+
+/* --- Responsivo (Adaptación a móviles) --- */
+@media (max-width: 768px) {
+    .whatsapp-card {
+        flex-direction: column; /* Apila los elementos verticalmente */
+        text-align: center;
+        gap: 20px;
+    }
+
+    .card-info {
+        padding: 10px 0;
+    }
+
+    .card-qr {
+        border-left: none;
+        border-top: 1px solid #eee;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+}
+
+
+
+
+/* ===== CONFIGURACIÓN ABAJO DE LA IMAGEN Y DEL LISTON FIN ===== */
+
+
+
+
+
+
 
 
 
