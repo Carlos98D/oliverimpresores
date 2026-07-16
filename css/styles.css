@@ -499,11 +499,11 @@ MÓVIL
   color: white; font-size: 40px; cursor: pointer;
 }
 
-
-
-
-
 /* ===== CONFIGURACIÓN IMAGENES ESTATICAS ZOOM FIN ===== */
+
+
+
+
 
 
 
@@ -511,23 +511,9 @@ MÓVIL
 
 
 /* --- Estilos Generales de la Sección --- */
-
-
-.direccion-info h4{
-    margin:0 0 6px;
-    font-size:18px;
-    font-weight:600;
-    color:#111;
-}
-
-.direccion-info span{
-    display:block;
-    font-size:16px;
-    color:#555;
-    line-height:1.5;
-}
-
-
+/* ===========================
+   SECCIÓN
+=========================== */
 
 .contacto-whatsapp{
     padding:40px 20px;
@@ -537,23 +523,35 @@ MÓVIL
 .contacto-contenedor{
     max-width:1200px;
     margin:auto;
-
     display:flex;
     align-items:center;
-    gap:35px;
+    gap:40px;
+}
+
+/* ===========================
+   QR
+=========================== */
+
+.contacto-qr{
+    flex-shrink:0;
 }
 
 .contacto-qr img{
     width:120px;
+    height:auto;
     display:block;
 }
+
+/* ===========================
+   INFORMACIÓN
+=========================== */
 
 .contacto-info{
     flex:1;
 }
 
 .contacto-info h2{
-    margin:0 0 10px;
+    margin:0 0 15px;
     font-size:46px;
     font-weight:300;
     color:#111;
@@ -567,58 +565,97 @@ MÓVIL
 
     text-decoration:none;
 
+    color:#0A4E9B;
     font-size:34px;
     font-weight:700;
 
-    color:#0A4E9B;
+    transition:.3s;
+}
+
+.telefono:hover{
+    color:#083c77;
 }
 
 .telefono i{
-    color:#222;
     font-size:30px;
+    color:#111;
 }
+
+/* ===========================
+   DIRECCIÓN
+=========================== */
 
 .contacto-direccion{
     display:flex;
-    align-items:center;
-    gap:12px;
-
-    max-width:350px;
-
-    font-size:24px;
-    color:#222;
-    line-height:1.4;
+    align-items:flex-start;
+    gap:15px;
+    max-width:340px;
 }
 
 .contacto-direccion i{
-    color:#d8302f;
-    font-size:34px;
+    color:#d93025;
+    font-size:36px;
+    margin-top:5px;
+    flex-shrink:0;
 }
 
-/* Responsive */
-
-@media(max-width:900px){
-
-.contacto-contenedor{
+.direccion-info{
+    display:flex;
     flex-direction:column;
-    text-align:center;
 }
 
-.contacto-direccion{
-    justify-content:center;
-    max-width:100%;
+.direccion-info h4{
+    margin:0 0 8px;
+    font-size:18px;
+    font-weight:700;
+    color:#111;
+    line-height:1.3;
 }
 
-.contacto-info h2{
-    font-size:32px;
+.direccion-info a,
+.direccion-info span{
+    font-size:16px;
+    color:#444;
+    line-height:1.6;
+    text-decoration:none;
 }
 
-.telefono{
-    font-size:28px;
+.direccion-info a:hover{
+    color:#0A4E9B;
 }
 
-}
+/* ===========================
+   RESPONSIVE
+=========================== */
 
+@media (max-width:900px){
+
+    .contacto-contenedor{
+        flex-direction:column;
+        text-align:center;
+        gap:30px;
+    }
+
+    .contacto-info h2{
+        font-size:34px;
+    }
+
+    .telefono{
+        font-size:28px;
+    }
+
+    .telefono i{
+        font-size:26px;
+    }
+
+    .contacto-direccion{
+        justify-content:center;
+        align-items:flex-start;
+        text-align:left;
+        max-width:100%;
+    }
+
+}
 
 
 
