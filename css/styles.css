@@ -984,8 +984,10 @@ MÓVIL
 }
 
 .card-icono p {
-    font-size: 18px;
-    color: #334155;
+    font-size: 19px;
+    color: #475569;
+    line-height: 1.8;
+    margin-bottom: 22px;
 }
 
 /* Efecto al pasar el cursor */
@@ -1153,8 +1155,10 @@ MÓVIL
 }
 
 .card-icono p {
-    font-size: 18px;
-    color: #334155;
+    font-size: 19px;
+    color: #475569;
+    line-height: 1.8;
+    margin-bottom: 22px;
 }
 
 /* Efecto al pasar el cursor */
