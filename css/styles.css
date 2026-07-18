@@ -1025,12 +1025,20 @@ MÓVIL
 
 
 
-.titulo-iconos h2 {
+.titulo-iconos {
     font-size: 42px !important;
     color: #002D62 !important;
     margin-bottom: 20px !important;
     font-weight: 800 !important;
 }
+
+.titulo-tarjetas {
+    font-size: 42px !important;
+    color: #002D62 !important;
+    margin-bottom: 20px !important;
+    font-weight: 800 !important;
+}
+
 
 
 
@@ -1186,7 +1194,7 @@ MÓVIL
 
 
 
-.titulo-iconos h2 {
+.titulo-iconos {
     font-size: 42px !important;
     color: #002D62 !important;
     margin-bottom: 20px !important;
