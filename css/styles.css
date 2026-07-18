@@ -851,15 +851,7 @@ MÓVIL
 /* --- ESTRUCTURA AVANZADA --- */
 .seccion-servicio-especial { padding: 80px 0; background: #fff; }
 
-.titulo-maestro { 
-    
-    font-size: 42px;
-    color: #002D62;
-    margin-bottom: 20px;
-    font-weight: 800; 
-}
 
-.intro-maestra { text-align: center; font-size: 18px; margin-bottom: 60px; color: #64748b; }
 
 .grid-layout-avanzado {
     display: grid;
@@ -1193,13 +1185,6 @@ MÓVIL
 }
 
 
-
-.titulo-iconos {
-    font-size: 42px !important;
-    color: #002D62 !important;
-    margin-bottom: 20px !important;
-    font-weight: 800 !important;
-}
 
 
 
