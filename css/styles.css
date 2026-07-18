@@ -983,7 +983,7 @@ MÓVIL
     display: block;
 }
 
-.card-icono h3 {
+.card-icono p {
     font-size: 18px;
     color: #334155;
 }
@@ -1152,7 +1152,7 @@ MÓVIL
     display: block;
 }
 
-.card-icono h3 {
+.card-icono p {
     font-size: 18px;
     color: #334155;
 }
