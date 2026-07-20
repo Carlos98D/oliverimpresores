@@ -863,6 +863,8 @@ MÓVIL
 .card-imagen-principal img {
     width: 100%;
     border-radius: 20px;
+    height: 350px; /* Cambia este valor para ajustar la altura a tu gusto (ej. 300px, 400px) */
+    object-fit: cover; /* Evita que la imagen se estire o deforme al cambiar la altura */
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 }
 
@@ -1271,6 +1273,8 @@ MÓVIL
 
 .card-imagen-principal img {
     width: 100%;
+    height: 350px; /* Cambia este valor para ajustar la altura a tu gusto (ej. 300px, 400px) */
+    object-fit: cover; /* Evita que la imagen se estire o deforme al cambiar la altura */
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 }
