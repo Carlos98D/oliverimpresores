@@ -1504,8 +1504,84 @@ MÓVIL
     text-decoration: none; /* Sin raya */
 }
 
-
 /* FIN DEL TEXTO SOLITARIO BIEN CENTRADDO */
+
+
+/* INCIO TRES TARJETAS ABAJO DE MI H2 Y SU IMAGEN */
+
+.process-section {
+  background-color: #FFFFFF;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.process-container {
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.process-item {
+  flex: 1;
+  background: #FFFFFF;
+  padding: 40px 30px 40px 45px;
+  border-radius: 0;
+  text-align: left;
+  border-left: 3px solid rgb(0, 45, 98);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03);
+  transition: transform 0.3s ease, border-left-width 0.3s ease, box-shadow 0.3s ease;
+}
+
+.process-item:hover {
+  transform: translateX(5px);
+  border-left-width: 6px;
+  box-shadow: 0 10px 30px rgba(0, 45, 98, 0.08);
+}
+
+.process-badge {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: rgb(0, 45, 98);
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.process-item h3 {
+  font-style: normal;
+  font-weight: 300;
+  color: rgb(17, 17, 17);
+  font-size: 28px;
+  line-height: 36px;
+  margin: 0 0 16px 0;
+}
+
+.process-item p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(71, 85, 105);
+  font-size: 19px;
+  line-height: 34px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .process-container {
+    flex-direction: column;
+  }
+}
+
+/* FIN TRES TARJETAS ABAJO DE MI H2 Y SU IMAGEN */
+
+
 
 
 
