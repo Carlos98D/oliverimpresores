@@ -1289,16 +1289,14 @@ MÓVIL
 
 /* NUEVO: Estilos para tu imagen del logo */
 .card-logo {
-  max-height: 45px; /* Ajusta el tamaño del logo */
-  width: auto; /* Mantiene la proporción original */
+  max-height: 24px;
+  width: auto;
   object-fit: contain;
   display: block;
 }
 
-/* Estilos modificados para el icono (originalmente solo .card-icon) */
 .secondary-icon {
   font-size: 32px;
-  margin: 0; /* Quitamos el margen inferior que tenía antes */
 }
 
 /* Estilos para los H3 (según tus especificaciones) */
