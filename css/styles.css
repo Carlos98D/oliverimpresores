@@ -1800,6 +1800,107 @@ MÓVIL
 
 /* FIN DE MI SECCION DE HORIZONTAL FUCIONADA CON VERTICAL */
 
+/* INICIO DE SECCION NUEVA MUY NUEVA 4 TARJETAS */
+
+.valores-4{
+    padding:80px 20px;
+    background:#ffffff;
+}
+
+.valores-container-4{
+    max-width:1320px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:45px;
+}
+
+.valor-item-4{
+    position:relative;
+    padding:10px 10px 10px 0;
+}
+
+.valor-linea-4{
+    width:55px;
+    height:5px;
+    background:#288934;
+    border-radius:50px;
+    margin-bottom:30px;
+    transition:.35s;
+}
+
+.valor-item-4:hover .valor-linea-4{
+    width:90px;
+}
+
+.valor-item-4 h3{
+    margin:0 0 22px;
+
+    font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style:normal;
+    font-weight:300;
+    font-size:42px;
+    line-height:42px;
+    color:rgb(17,17,17);
+}
+
+.valor-item-4 p{
+    margin:0;
+
+    font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style:normal;
+    font-weight:400;
+    font-size:19px;
+    line-height:34px;
+    color:rgb(71,85,105);
+}
+
+.valor-item-4 p a{
+    color:#288934;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.valor-item-4 p a:hover{
+    text-decoration:underline;
+}
+
+@media(max-width:1100px){
+
+    .valores-container-4{
+        grid-template-columns:repeat(2,1fr);
+        gap:50px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .valores-4{
+        padding:60px 20px;
+    }
+
+    .valores-container-4{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .valor-item-4 h3{
+        font-size:34px;
+        line-height:38px;
+    }
+
+    .valor-item-4 p{
+        font-size:18px;
+        line-height:32px;
+    }
+
+}
+
+
+/* FIN DE SECCION NUEVA MUY NUEVA 4 TARJETAS */
+
 
 /* INCIO DE SECCION PREGUNTAS FRECUENTES */
 
