@@ -1474,6 +1474,7 @@ MÓVIL
 
 /* Estilos texto primero*/
 .info-texto p {
+    text-align:center;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
     font-weight: 400;
