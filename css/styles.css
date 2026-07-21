@@ -1258,8 +1258,10 @@ MÓVIL
     
     font-size: 42px;
     color: #002D62;
-    margin-bottom: 20px;
-    font-weight: 800; 
+    margin-bottom: 50px;
+    font-weight: 800;
+    
+    
 }
 
 .intro-maestra { text-align: center; font-size: 18px; margin-bottom: 60px; color: #64748b; }
