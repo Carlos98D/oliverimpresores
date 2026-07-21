@@ -1014,9 +1014,14 @@ MÓVIL
 }
 
 .seccion-iconos .parrafo-titulo-tarjeta p {
+    text-align:center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(71, 85, 105);
     font-size: 19px;
-    color: #475569;
-    line-height: 1.7;
+    line-height: 32px;
+    margin-bottom: 20px; /* Separación entre párrafos */
 }
 
 
