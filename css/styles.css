@@ -1284,7 +1284,11 @@ MÓVIL
 /* Estilo para los 3 items de información */
 .info-item { margin-bottom: 30px; padding-left: 20px; border-left: 3px solid #d71920; }
 .info-item h3 { font-size: 22px; color: #334155; margin-bottom: 8px; }
-.info-item p { color: #64748b; font-size: 16px; }
+.info-item-parrafo p {  
+    font-size: 19px;
+    color: #475569;
+    line-height: 1.8;
+    margin-bottom: 22px; }
 
 /* Responsivo: Si la pantalla es pequeña, se pone uno debajo del otro */
 @media (max-width: 768px) {
