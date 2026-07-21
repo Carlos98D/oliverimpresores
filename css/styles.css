@@ -1001,19 +1001,19 @@ MÓVIL
 
 
 
-.seccion-iconos .parrafo-titulo-tarjeta p a {
+.seccion-iconos .parrafo-titulo-tarjeta  a {
     color: #0056B3; /* Tu color base azul oscuro */
     font-weight: bold; /* Destaca de inmediato */
     text-decoration: none; /* Sin raya */
     transition: color 0.3s ease; /* Cambio suave */
 }
 
-.seccion-iconos .parrafo-titulo-tarjeta p a:hover {
+.seccion-iconos .parrafo-titulo-tarjeta  a:hover {
     color: #D71920; /* Color rojo al pasar el ratón */
     text-decoration: none; /* Sin raya */
 }
 
-.seccion-iconos .parrafo-titulo-tarjeta p {
+.seccion-iconos .parrafo-titulo-tarjeta  {
     text-align:center;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
