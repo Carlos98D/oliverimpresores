@@ -1981,11 +1981,24 @@ MÓVIL
 /* Estilo para los 3 items de información */
 .info-item { margin-bottom: 30px; padding-left: 20px; border-left: 3px solid #d71920; }
 .info-item h3 { font-size: 22px; color: #334155; margin-bottom: 8px; }
+
 .info-item-parrafo p {  
     font-size: 19px;
     color: #475569;
     line-height: 1.8;
     margin-bottom: 22px; }
+
+
+.column-info p a {
+  color: #0071BC;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.column-info p a:hover {
+  color: #FF0000;
+}
+
 
 /* Responsivo: Si la pantalla es pequeña, se pone uno debajo del otro */
 @media (max-width: 768px) {
