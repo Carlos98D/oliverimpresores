@@ -1292,7 +1292,7 @@ MÓVIL
 /* Contenedor para centrar y dimensionar adecuadamente la imagen ilustrativa */
 .card-image-container {
   width: 100%;
-  height: 160px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1302,13 +1302,14 @@ MÓVIL
 
 /* Imagen principal con tamaño controlado pero distinguible */
 .card-main-image {
-  max-height: 120px;
+  max-height: 180px;
   max-width: 100%;
   object-fit: contain;
 }
 
 /* H3 con tus especificaciones exactas: Segoe UI, normal 300, tamaño 42px, line-height 42px, color rgb(17, 17, 17) */
 .card h3 {
+    text-align:center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -1321,12 +1322,15 @@ MÓVIL
 .card p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   color: rgb(71, 85, 105);
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 19px;
+  line-height: 34px;
   margin: 0;
 }
+
+
+
 
 @media (max-width: 768px) {
   .cards-container {
