@@ -1473,7 +1473,39 @@ MÓVIL
 /* FIN SECCION DE TRES TARJETAS MAS OTRO DISEÑO */
 
 
+/* INCIO DEL TEXTO SOLITARIO BIEN CENTRADO */
 
+/* Estilos texto */
+.info-texto {
+    padding: 60px 0;
+}
+
+
+/* Estilos texto primero*/
+.info-texto p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(71, 85, 105);
+    font-size: 19px;
+    line-height: 32px;
+    margin-bottom: 20px; /* Separación entre párrafos */
+}
+
+.info-texto p a {
+    color: #0056B3; /* Tu color base azul oscuro */
+    font-weight: bold; /* Destaca de inmediato */
+    text-decoration: none; /* Sin raya */
+    transition: color 0.3s ease; /* Cambio suave */
+}
+
+.info-texto p a:hover {
+    color: #D71920; /* Color rojo al pasar el ratón */
+    text-decoration: none; /* Sin raya */
+}
+
+
+/* FIN DEL TEXTO SOLITARIO BIEN CENTRADDO */
 
 
 
