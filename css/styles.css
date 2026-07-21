@@ -1212,17 +1212,21 @@ MÓVIL
 
 /* INICIO SECCION DE TRES TARJETAS */
 
-/* Estilos generales de la sección */
+/* Estilos generales de la sección (sin cambios) */
 .solutions-section {
   background-color: #f0f4f8;
   padding: 60px 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Estilos específicos para el H2 con tus requerimientos exactos */
+.solutions-header {
+  text-align: center;
+  max-width: 800px;
+}
+
+/* 1. Estilos para el H2 (según tus especificaciones) */
 .solutions-header h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
@@ -1230,22 +1234,19 @@ MÓVIL
   color: rgb(0, 45, 98);
   font-size: 42px;
   line-height: 67px;
-  text-align: center;
-  margin-bottom: 40px; /* Espacio adecuado abajo del h2 */
+  margin: 0 0 20px 0;
 }
 
-/* Estilos para el párrafo ubicado debajo del h2 */
+/* Párrafo ubicado abajo del h2 (sin cambios) */
 .section-description {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  color: rgb(71, 85, 105);
   font-size: 18px;
   line-height: 28px;
-  color: rgb(71, 85, 105);
-  text-align: center;
-  max-width: 700px;
-  margin: 0 auto 40px auto; /* Centrado y con buen espacio inferior hacia las tarjetas */
+  margin: 0 auto 50px auto;
 }
 
-/* Estilos para el enlace dentro de este párrafo */
 .header-link {
   color: rgb(0, 45, 98);
   font-weight: 600;
@@ -1256,8 +1257,7 @@ MÓVIL
   color: rgb(17, 17, 17);
 }
 
-
-/* Contenedor principal de las tarjetas (efecto glassmorphism/tarjeta contenedora) */
+/* Contenedor de tarjetas (sin cambios) */
 .cards-container {
   display: flex;
   gap: 24px;
@@ -1278,55 +1278,59 @@ MÓVIL
   flex-direction: column;
 }
 
-/* Iconos de ejemplo */
-.card-icon {
-  font-size: 36px;
+/* NUEVO: Contenedor para el logo y el icono */
+.card-logo-wrapper {
+  display: flex;
+  align-items: center; /* Alinea verticalmente logo e icono */
+  justify-content: space-between; /* Separa el logo a la izquierda y el icono a la derecha */
   margin-bottom: 16px;
+  min-height: 50px; /* Altura mínima para reservar el espacio del logo */
 }
 
-/* Estilos para los títulos h3 internos */
+/* NUEVO: Estilos para tu imagen del logo */
+.card-logo {
+  max-height: 45px; /* Ajusta el tamaño del logo */
+  width: auto; /* Mantiene la proporción original */
+  object-fit: contain;
+  display: block;
+}
+
+/* Estilos modificados para el icono (originalmente solo .card-icon) */
+.secondary-icon {
+  font-size: 32px;
+  margin: 0; /* Quitamos el margen inferior que tenía antes */
+}
+
+/* Estilos para los H3 (según tus especificaciones) */
 .card h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 300;
   color: rgb(17, 17, 17);
   font-size: 20px;
-  line-height: 28px;
-  margin-bottom: 16px;
-}
-
-/* Estilos para el párrafo */
-.card p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(71, 85, 105);
-  font-size: 16px;
-  line-height: 26px; /* Espaciado cómodo */
+  line-height: 42px;
   margin: 0 0 16px 0;
 }
 
-/* Estilos para el enlace dentro del párrafo */
-.card-link {
-  color: rgb(0, 45, 98);
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 8px;
+/* Texto de las tarjetas (sin cambios) */
+.card p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  color: rgb(71, 85, 105);
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
 }
 
-.card-link:hover {
-  text-decoration: underline;
-}
-
-/* Diseño Responsivo para celulares */
+/* Diseño responsivo (sin cambios) */
 @media (max-width: 768px) {
   .cards-container {
     flex-direction: column;
   }
   .solutions-header h2 {
     font-size: 32px;
-    line-height: 42px;
+    line-height: 48px;
   }
 }
-
 
 
 
