@@ -1611,7 +1611,182 @@ MÓVIL
 /* FIN TRES TARJETAS ABAJO DE MI H2 Y SU IMAGEN */
 
 
+/* INICIO DE MIS SECCION DE HORIZONTAL FUCIONADA CON VERTICAL */
 
+.beneficios-section-2{
+    padding:90px 20px;
+    background:#f8fafc;
+}
+
+.beneficios-container-2{
+    max-width:1320px;
+    margin:0 auto;
+}
+
+.beneficios-header-2{
+    max-width:900px;
+    margin:0 auto 70px;
+    text-align:center;
+}
+
+.beneficios-header-2 h2{
+    margin:0 0 20px;
+
+    font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style:normal;
+    font-weight:800;
+    font-size:42px;
+    line-height:67px;
+    color:rgb(0,45,98);
+}
+
+.beneficios-header-2 p{
+    margin:0;
+
+    font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style:normal;
+    font-weight:400;
+    font-size:19px;
+    line-height:34px;
+    color:rgb(71,85,105);
+}
+
+.beneficios-lista-2{
+    display:flex;
+    flex-direction:column;
+    gap:35px;
+}
+
+.beneficio-item-2{
+    display:flex;
+    align-items:center;
+    gap:35px;
+
+    padding:35px;
+    background:#ffffff;
+    border-radius:20px;
+    border:1px solid #e5e7eb;
+
+    box-shadow:0 18px 40px rgba(15,23,42,.08);
+    transition:.35s;
+}
+
+.beneficio-item-2:hover{
+    transform:translateX(12px);
+    box-shadow:0 25px 50px rgba(15,23,42,.14);
+}
+
+.beneficio-icono-2{
+    width:90px;
+    min-width:90px;
+    height:90px;
+
+    border-radius:18px;
+    background:#288934;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.beneficio-icono-2 i{
+    font-size:38px;
+    color:#ffffff;
+}
+
+.beneficio-texto-2{
+    flex:1;
+}
+
+.beneficio-texto-2 h3{
+    margin:0 0 18px;
+
+    font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style:normal;
+    font-weight:300;
+    font-size:42px;
+    line-height:42px;
+    color:rgb(17,17,17);
+}
+
+.beneficio-texto-2 p{
+    margin:0;
+
+    font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style:normal;
+    font-weight:400;
+    font-size:19px;
+    line-height:34px;
+    color:rgb(71,85,105);
+}
+
+/* Enlaces dentro de los párrafos */
+
+
+.beneficio-texto-2 p a{
+  color: #0071BC;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.beneficio-texto-2 p a:hover {
+  color: #FF0000;
+}
+
+@media (max-width:991px){
+
+    .beneficios-section-2{
+        padding:70px 20px;
+    }
+
+    .beneficios-header-2{
+        margin-bottom:50px;
+    }
+
+    .beneficio-item-2{
+        flex-direction:column;
+        align-items:flex-start;
+        text-align:left;
+    }
+
+    .beneficio-texto-2 h3{
+        font-size:34px;
+        line-height:40px;
+    }
+
+    .beneficio-texto-2 p,
+    .beneficios-header-2 p{
+        font-size:18px;
+        line-height:32px;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .beneficios-header-2 h2{
+        font-size:34px;
+        line-height:48px;
+    }
+
+    .beneficio-icono-2{
+        width:75px;
+        min-width:75px;
+        height:75px;
+    }
+
+    .beneficio-icono-2 i{
+        font-size:32px;
+    }
+
+    .beneficio-texto-2 h3{
+        font-size:30px;
+        line-height:36px;
+    }
+
+}
+
+/* FIN DE MI SECCION DE HORIZONTAL FUCIONADA CON VERTICAL */
 
 
 
