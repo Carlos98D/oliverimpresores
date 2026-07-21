@@ -1246,14 +1246,14 @@ MÓVIL
   margin: 0 auto 50px auto;
 }
 
-.header-link {
-  color: rgb(0, 45, 98);
-  font-weight: 600;
-  text-decoration: underline;
+.solutions-header p a {
+  color: #0071BC;
+  font-weight: 800;
+  text-decoration: none;
 }
 
-.header-link:hover {
-  color: rgb(17, 17, 17);
+.solutions-header p a:hover {
+  color: #FF0000;
 }
 
 .cards-container {
