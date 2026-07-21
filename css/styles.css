@@ -1284,7 +1284,7 @@ MÓVIL
   position: absolute;
   top: 16px;
   left: 16px;
-  max-height: 20px;
+  max-height: 40px;
   width: auto;
   object-fit: contain;
 }
