@@ -1354,7 +1354,7 @@ MÓVIL
 
 /* INCION SECCION DE TRES TARJETAS MAS OTRO DISEÑO */
 
-.process-section {
+.unique-workflow-section {
   background-color: #FFFFFF;
   padding: 80px 20px;
   display: flex;
@@ -1362,72 +1362,81 @@ MÓVIL
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.process-container {
+.unique-workflow-wrap {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  max-width: 900px;
+  gap: 24px;
+  max-width: 800px;
   width: 100%;
 }
 
-.process-row {
+.unique-workflow-step {
   display: flex;
-  width: 100%;
-}
-
-.row-left {
-  justify-content: flex-start;
-  text-align: left;
-}
-
-.row-right {
-  justify-content: flex-end;
-  text-align: right;
-}
-
-.process-text {
-  max-width: 600px;
-  padding: 0 20px;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
+  align-items: center;
+  background: #FFFFFF;
+  padding: 24px 30px;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 45, 98, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
   transition: all 0.3s ease;
 }
 
-.row-left .process-text {
-  border-left-color: rgb(0, 45, 98);
+.unique-workflow-step:hover {
+  border-color: rgb(0, 45, 98);
+  box-shadow: 0 8px 24px rgba(0, 45, 98, 0.08);
+  transform: translateX(8px);
 }
 
-.row-right .process-text {
-  border-right-color: rgb(0, 45, 98);
+.unique-workflow-marker {
+  width: 48px;
+  height: 48px;
+  background: rgb(0, 45, 98);
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 10px rgba(0, 45, 98, 0.2);
 }
 
-.process-text h3 {
+.unique-workflow-body {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.unique-workflow-body h4 {
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
   color: rgb(17, 17, 17);
-  font-size: 32px;
-  line-height: 40px;
-  margin: 0 0 12px 0;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0 0 6px 0;
 }
 
-.process-text p {
+.unique-workflow-body p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   color: rgb(71, 85, 105);
-  font-size: 19px;
-  line-height: 34px;
+  font-size: 17px;
+  line-height: 28px;
   margin: 0;
 }
 
 @media (max-width: 768px) {
-  .row-right {
-    justify-content: flex-start;
-    text-align: left;
+  .unique-workflow-step {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
   }
-  .row-right .process-text {
-    border-right-color: transparent;
-    border-left-color: rgb(0, 45, 98);
+  .unique-workflow-marker {
+    margin-right: 0;
+    margin-bottom: 15px;
   }
 }
 
