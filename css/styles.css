@@ -1268,44 +1268,52 @@ MÓVIL
   box-sizing: border-box;
 }
 
+/* Tarjeta individual con posición relativa para ubicar el logo en la esquina */
 .card {
   flex: 1;
-  padding: 20px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
+  position: relative; 
+  background: #ffffff;
+  border-radius: 12px;
 }
 
-/* Contenedor que alinea tu logo y tu imagen pequeña */
-.card-logo-wrapper {
+/* Logotipo pequeño y sutil ubicado en la esquina superior izquierda de cada tarjeta */
+.card-logo {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  max-height: 20px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Contenedor para centrar y dimensionar adecuadamente la imagen ilustrativa */
+.card-image-container {
+  width: 100%;
+  height: 160px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  margin-top: 20px;
   margin-bottom: 16px;
-  min-height: 32px;
 }
 
-/* Tamaño controlado y pequeño para tu logotipo principal */
-.card-logo {
-  max-height: 24px;
-  width: auto;
+/* Imagen principal con tamaño controlado pero distinguible */
+.card-main-image {
+  max-height: 120px;
+  max-width: 100%;
   object-fit: contain;
-  display: block;
 }
 
-/* Tamaño controlado y pequeño para la segunda imagen o icono personalizado */
-.card-mini-icon {
-  max-height: 24px;
-  width: auto;
-  object-fit: contain;
-  display: block;
-}
-
+/* H3 con tus especificaciones exactas: Segoe UI, normal 300, tamaño 42px, line-height 42px, color rgb(17, 17, 17) */
 .card h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 300;
   color: rgb(17, 17, 17);
-  font-size: 20px;
+  font-size: 42px;
   line-height: 42px;
   margin: 0 0 16px 0;
 }
@@ -1328,8 +1336,11 @@ MÓVIL
     font-size: 32px;
     line-height: 48px;
   }
+  .card h3 {
+    font-size: 32px;
+    line-height: 38px;
+  }
 }
-
 
 
 /* FIN SECCION DE TRES TARJETAS  */
