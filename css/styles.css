@@ -1356,7 +1356,6 @@ MÓVIL
 
 /* INCION SECCION DE TRES TARJETAS MAS OTRO DISEÑO */
 
-
 .process-section {
   background-color: #ffffff;
   padding: 80px 20px;
@@ -1393,17 +1392,47 @@ MÓVIL
 
 .process-container {
   display: flex;
-  gap: 40px;
-  max-width: 1100px;
+  gap: 30px;
+  max-width: 1200px;
   width: 100%;
-  box-sizing: border-box;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 20px;
+}
+
+.process-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.process-container::-webkit-scrollbar-track {
+  background: rgba(0, 45, 98, 0.05);
+  border-radius: 4px;
+}
+
+.process-container::-webkit-scrollbar-thumb {
+  background: rgba(0, 45, 98, 0.2);
+  border-radius: 4px;
 }
 
 .process-item {
-  flex: 1;
+  flex: 0 0 350px;
+  scroll-snap-align: start;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
   text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  border: 1px solid rgba(0, 45, 98, 0.08);
+}
+
+.process-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 45, 98, 0.2);
 }
 
 .process-number {
@@ -1435,7 +1464,10 @@ MÓVIL
 @media (max-width: 768px) {
   .process-container {
     flex-direction: column;
-    gap: 30px;
+    overflow-x: visible;
+  }
+  .process-item {
+    flex: 1;
   }
 }
 
